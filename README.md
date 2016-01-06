@@ -36,13 +36,13 @@ left entries receives 1/200 of total fatality(UCDP) minus total death of the 100
 3. browse the whole dataset, if one event has matched info, then: 1.check if it's a correct match (by looking at the dyad_name fields)2. if correct match, and if best_est>fatility (that is/are matched), then populate the missing fatility by (best_est-sum_matchedfatility)/(number of missing values) 3. if correct match and if best_est<sum_matchedfatility, then simply populate all the event by best_est/event_length
 
 ## Rebel Group Analysis
-	1. Subset the events which have rebel groups involved ( INTER1=2 OR INTER2=2) for five countries.
-	2. Restructure all the rebel groups to variable "newactor1" and the others to variable "newactor2". The result is: under rebel sub datasets for each country, all rebel groups are recorded "newactor1"; the only rebel groups recorded in "newactor2" are those in event type "Rebel vs. Rebel" (INTERACTION=22).
-	3. Direct to Tableau to make exploratory analysis.
-	4. Uganda: 2726 of 4381 events have rebel groups involved
-	5. DRC: 4373 of 8876 events have rebel groups involved
-	6. Somalia: 4912 of 15150 events have rebel groups involved
-	7. Senegal: 291 of 450 events have rebel groups involved
-	8. Nigeria: 191 of 6781 events have rebel groups involved
+1. Subset the events which have rebel groups involved ( INTER1=2 OR INTER2=2) for five countries.
+2. Restructure all the rebel groups to variable "newactor1" and the others to variable "newactor2". The result is: under rebel sub datasets for each country, all rebel groups are recorded "newactor1"; the only rebel groups recorded in "newactor2" are those in event type "Rebel vs. Rebel" (INTERACTION=22).
+3. Direct to Tableau to make exploratory analysis.
+4. Uganda: 2726 of 4381 events have rebel groups involved
+5. DRC: 4373 of 8876 events have rebel groups involved
+6. Somalia: 4912 of 15150 events have rebel groups involved
+7. Senegal: 291 of 450 events have rebel groups involved
+8. Nigeria: 191 of 6781 events have rebel groups involved
 
 
